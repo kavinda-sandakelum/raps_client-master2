@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a{
+  cursor: pointer;
+}
+.content{
+  padding:2ex;
+}
+
+.navbar{
+  padding:2ex;
+}
+
+body{
+  padding-top:70px;
+  background: #ffffff;
+}
+.loading{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.form-check-input{
+  margin-left:0;
+}
+
+.form-check-label{
+  margin-left:1.25rem;
+}
+
+/*Holidays*/
+.add-holiday{
+  position: relative;
+}
+@media screen and (min-width: 800px) {
+  .add-holiday{position: fixed}
+}
+
+.nav_brand_label_short{display:none}
+
+/*Navbar Responsive*/
+@media screen and (max-width: 1300px) {
+  .nav_item_label_log_out{display: none}
+  .nav_brand_label{display:none}
+  .nav_brand_label_short{display:inline}
+
+}
+@media screen and (max-width: 950px) {
+  .nav_item_label{display: none}
+}
+@media screen and (max-width: 500px) {
+  .nav_brand_label_short{display:none}
+}
+/*
+body{
+  background-color: #222;
+}
+h3, td, p, label, .form-group{
+  color: white;
+}
+.form-control{
+  background-color: #444;
+  color:white;
+}
+*/

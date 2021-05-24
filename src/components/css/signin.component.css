@@ -1,0 +1,102 @@
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0em;
+  left: 0em;
+  top: 0em;
+  background: url(../../Assets/wave.svg) no-repeat;
+  background-size: cover;
+  background-color: #378abd;
+}
+
+.title{
+font-size:25px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+font-weight: 700;
+padding-top:50px;
+}
+
+.form-button {
+  margin: 10ex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #378abd;
+}
+
+.sign-img {
+  width: 100%;
+  margin: 20px auto 0;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #2f2e41;
+}
+h6 {
+  color: #a0616a;
+}
+
+.formside {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.form-groupone {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #0099ff;
+}
+
+.forminput {
+  outline: none;
+  margin-left: 10px;
+  border-style: none;
+  width: 100%;
+}
+
+.icons {
+  margin-left: 10px;
+  color: #2f2e41;
+}
+
+.btn-signin {
+  background-color: #222 !important;
+  border: none;
+  color: white;
+}
+
+.btn-signin:hover:enabled {
+  background-color: #0099ff !important;
+  color:white;
+}
+
+.btn-signin:hover:disabled {
+  background-color: #888  !important;
+  color:#bbb;
+}
+
+
+.btn-signin:disabled {
+  background-color: #555  !important;
+  color:#bbb;
+}
+
+
+.form-inside {
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+}
+
+
+form {
+  margin: auto;
+}
